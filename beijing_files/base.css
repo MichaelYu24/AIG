@@ -1,0 +1,250 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;list-style: none;}
+body{font: 14px/1.5 tahoma, arial, Microsoft Yahei, sans-serif;background:#fff;color: #333;}
+img{height:auto;border:0;-ms-interpolation-mode:bicubic; /* Internet Explorer 7.0+ 画面失真呈锯齿状 */ image-rendering:optimizeQuality;/* Firefox 3.6+ */vertical-align: middle;}
+/*link*/
+a{text-decoration:nonecursor:pointer}
+a:focus{outline:0;}
+a:hover,a:active{outline:0;}
+a:hover{text-decoration:none;color:#ff5400;}
+a,button,select{
+    cursor:pointer;
+}
+table{border-collapse:collapse;border-spacing:0;}
+th {text-align: inherit;}
+html {color: #000;background: #fff;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;}
+/* 重设 HTML5 标签, IE 需要在 js 中 createElement(TAG) */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+/* HTML5 媒体文件跟 img 保持一致 */
+audio, canvas, video {display: inline-block;*display: inline;*zoom: 1;}
+/* 要注意表单元素并不继承父级 font 的问题 */
+body, button, input, select, textarea {font: 14px/1.5 "微软雅黑","tahoma, arial, Microsoft Yahei, sans-serif;"}
+/*去掉A标签点击之后虚线边框*/
+body a {outline: none;blr:expression(this.onFocus=this.blur())\9;text-decoration: none;}
+input, select, textarea {font-size: 100%;}
+textarea {resize: none;outline: none;}
+/* 去除默认边框 */
+fieldset, img {
+	border: 0;
+}
+/* ie6 7 8(q) bug 显示为行内表现 */
+iframe {
+	display: block;
+}
+/* 去掉 firefox 下此元素的边框 */
+abbr, acronym {
+	border: 0;
+	font-variant: normal;
+}
+/* 一致的 del 样式 */
+del {
+	text-decoration: line-through;
+}
+address, caption, cite, code, dfn, em, th, var {
+	font-style: normal;
+	font-weight: 500;
+}
+/* 去掉列表前的标识, li 会继承 */
+ol, ul {
+	list-style: none;
+}
+/* 对齐是排版最重要的因素, 别让什么都居中 */
+caption, th {
+	text-align: left;
+}
+/* 来自yahoo, 让标题都自定义, 适应多个系统应用 */
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+q:before, q:after {
+	content: '';
+}
+/* 统一上标和下标 */
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {
+	top: -0.5em;
+}
+sub {
+	bottom: -0.25em;
+}
+a {
+	color: #000;
+}
+/* 让链接在 hover 状态下显示下划线 */
+a:hover {
+	text-decoration: none;
+}
+/* 默认不显示下划线，保持页面简洁 */
+ins, a {
+	text-decoration: none;
+}
+
+/* 清理浮动 */
+.fn-clear:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.fn-clear {
+	zoom: 1; /* for IE6 IE7 */
+}
+/* 隐藏, 通常用来与 JS 配合 */
+.fn-hide {
+	display: none;
+}
+.fn-show {
+	display: block;
+}
+/* 设置内联, 减少浮动带来的bug */
+.fn-left, .fn-right {
+	display: inline;
+}
+.fn-left {
+	float: left;
+}
+.fn-right {
+	float: right;
+}
+.w280 {
+	width: 280px;
+}
+.w700 {
+	width: 700px;
+}
+.w720 {
+	width: 720px;
+}
+.w980 {
+	width: 980px;
+	margin: 0 auto;
+}
+.w1020 {
+	width: 1020px;
+	margin: 0 auto;
+}
+.padding-t-10 {
+	padding-top: 10px;
+}
+.padding-t-15 {
+	padding-top: 15px;
+}
+.padding-t-20 {
+	padding-top: 20px;
+}
+.padding-t-30 {
+	padding-top: 30px;
+}
+.padding-b-10 {
+	padding-bottom: 10px;
+}
+.padding-b-30 {
+	padding-bottom: 30px;
+}
+.padding-10 {
+	padding: 10px;
+}
+.margin-t-5 {
+	margin-top: 5px;
+}
+.margin-t-10 {
+	margin-top: 10px;
+}
+.margin-t-15 {
+	margin-top: 15px;
+}
+.margin-t-20 {
+	margin-top: 20px;
+}
+.margin-t-25 {
+	margin-top: 25px;
+}
+.margin-t-30 {
+	margin-top: 30px;
+}
+.margin-t-35 {
+	margin-top: 35px;
+}
+.margin-t-45 {
+	margin-top: 45px;
+}
+.margin-l-10 {
+	margin-left: 10px;
+}
+.margin-l-15 {
+	margin-left: 15px;
+}
+.margin-l-20 {
+	margin-left: 20px;
+}
+.margin-l-30 {
+	margin-left: 30px;
+}
+.margin-l-40 {
+	margin-left: 40px;
+}
+.margin-r-10 {
+	margin-right: 10px;
+}
+.margin-r-20 {
+	margin-right: 20px;
+}
+.margin-r-5 {
+	margin-right: 10px;
+}
+.margin-b-5 {
+	margin-bottom: 5px;
+}
+.margin-b-10 {
+	margin-bottom: 10px;
+}
+.margin-b-15 {
+	margin-bottom: 15px;
+}
+.margin-b-20 {
+	margin-bottom: 20px;
+}
+.margin-b-30 {
+	margin-bottom: 30px;
+}
+.margin-b-80 {
+	margin-bottom: 80px;
+}
+.margin-r-40 {
+	margin-right: 40px;
+}
+.margin-r-50 {
+	margin-right: 50px;
+}
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+.margin-lr-10 {
+	margin: 0 10px;
+}
+.margin-lr-20 {
+	margin: 0 20px;
+}
+.f11{font-size:11px;-webkit-text-size-adjust:none;}
+.f11b{font-size:11px;font-weight:bold;-webkit-text-size-adjust:none;}
+.f12{font-size:12px;}
+.f12b{font-size:12px;font-weight:bold;}
+.f14{font-size:14px;}
+.f14b{font-size:14px;font-weight:bold;}
+.f16{font-size: 16px}
+.f20{font-size:20px;}
+.f20b{font-size:20px;font-weight:bold;}
+
+
+

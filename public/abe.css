@@ -1,0 +1,48 @@
+﻿body,html,title,input,button,div,form,table,h1,h2,h3,h4,h5,h6,ul,li,a{ margin:0; padding:0;}
+body{ margin:0; padding:0; font:14px Arial, Verdana,'Microsoft Yahei', Tahoma, sans-serif;}
+form p { font-size:12px; font-style:italic; color:#666; line-height:20px;}
+button { font:14px Verdana, Tahoma, sans-serif; font-weight:bold;}
+.list{/* color: #0066FF; */margin:20px;}
+table { border-collapse:collapse; border:1px solid #ddd; width:100%; margin:20px 0;}
+th { background:#e6f5fb; color:#333; padding:0 10px; font-size:14px; height:40px; text-align:center;}
+.list table tbody tr:hover{ background:#f4fcff;}
+td {color: #0066FF;padding:0 10px;font-size:14px;height:40px;text-align:center;}
+td a{color: #0066FF;text-decoration:underline;}
+td a:hover {color: #0066FF;}
+h1 { border-bottom:solid 1px #ccc; margin:0 0 10px 0; padding:30px 20px; /* border-top:10px solid #29a8e1; */ font-weight:normal; font-size:36px;}
+.search_logo,.search_logo a:hover{ color:#0066FF;}
+h1 img { vertical-align:bottom;}
+p,ul,h2,h3,h4 { line-height:160%;}
+li { line-height:24px; padding-left:0px;}
+li table { margin:0;}
+a{color: #0066FF;text-decoration:underline;}
+a:hover { color:#0075b8;}
+.search{ height:44px; line-height:20px; padding:12px 0 12px 5px; border:solid 1px #29a8e1; width:520px; border-radius:5px 0 0 5px;}
+.search_btn{ height:46px; line-height:46px; width:70px; text-align:center; background:#29a8e1; border:0; color:#0066FF; font-size:14px; border-radius:0 5px 5px 0; cursor:pointer;}
+.search_btn:hover{ background:#2bb4f1;}
+
+/*主节点奖励*/
+.left { float:left;}
+.right { float:right;}
+.clearfix:after { content:"."; display:block; clear:both; height:0; overflow:hidden;}
+.clearfix { zoom:1;}
+.main_box { width:1000px; margin:0 auto;}
+.node_title { width:400px; margin:50px auto;}
+.node { width:320px; height:160px; background:#a0c92f; margin-bottom:50px;}
+.node01 { background:#2fbfc4; margin-left:20px;}
+.node02 { background:#ff4c69;}
+.node p { color:#0066FF; text-align:center; font-size:18px; line-height:100%;}
+.node .node_number { font-size:50px; padding:50px 0 10px 0;}
+.node .node_number span { font-size:24px; margin-left:5px;}
+.node_list_top { height:40px;}
+.node_list_top h2 { font-size:18px; font-weight:normal; line-height:40px;}
+.node_list_top p { font-size:14px; line-height:40px;}
+.node_list_bottom { margin:30px 0 50px 0;}
+.node_list_bottom h2 { font-size:18px; font-weight:normal; line-height:40px;}
+.node_list_bottom p { line-height:24px;}
+.node_list { width:100%; text-align:center; border:1px solid #d2d2d2;}
+.node_list tr th { height:30px; background:#e2e2e2; color:#000; font-size:14px;}
+.node_list tr td { height:30px;}
+.node_list .node_list0 { background:#0066FF;}
+.node_list .node_list1 { background:#f6f6f6;}
+/**/
